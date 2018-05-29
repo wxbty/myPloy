@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JDeploy:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="jdeploy-1.6.0.war">
+      <element id="artifact" artifact-name="JDeploy:war exploded" />
+    </root>
+  </artifact>
+</component>
