@@ -6,26 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/isrunning.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/package.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showlog.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/isrunning.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/kill.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/package.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/showlog.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/shell.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/sql.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/shell/javadeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/doc/shell/javadeploy/kill.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" afterDir="false" />
-    </list>
+    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,17 +32,8 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="77" lean-forward="true" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/detail.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="240">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -202,41 +174,6 @@
             <path>
               <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-core:4.2.5.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-core-4.2.5.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -487,15 +424,16 @@
       <workItem from="1529575398202" duration="4843000" />
       <workItem from="1529637660953" duration="9552000" />
       <workItem from="1529735141865" duration="1591000" />
-      <workItem from="1530068739717" duration="1447000" />
+      <workItem from="1530068739717" duration="2898000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45612000" />
+    <option name="totallyTimeSpent" value="47063000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="50" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -517,8 +455,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -538,13 +476,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="116" column="13" lean-forward="true" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1830">
@@ -858,10 +789,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/doc.zip">
+      <provider selected="true" editor-type-id="apk-viewer" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="77" lean-forward="true" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="77" />
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
