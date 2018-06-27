@@ -72,6 +72,15 @@ public class JavaDeployController {
 	public String ajaxDeploy(String uuid) throws IOException {
 		return HtmlUtils.htmlEscape(javaDeployService.deploy(uuid));
 	}
+
+	/**
+	 * 增量部署
+	 */
+	@ResponseBody
+	@RequestMapping(value = "deployPlus", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
+	public String ajaxDeployPlus(String uuid) throws IOException {
+		return HtmlUtils.htmlEscape(javaDeployService.deployPlus(uuid));
+	}
 	
 	/**
 	 * ajax重启

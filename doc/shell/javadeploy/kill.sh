@@ -1,4 +1,4 @@
-#!/bin/bash
+ q#!/bin/bash
 # kill进程
 #
 # 参数：
