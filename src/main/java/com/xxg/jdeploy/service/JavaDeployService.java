@@ -175,4 +175,36 @@ public class JavaDeployService {
         }
         return fileName;
     }
+
+    public String deployRemote(String uuid) throws IOException {
+        JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
+        if (info != null) {
+            StringBuilder sb = new StringBuilder();
+
+            // kill进程
+            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemoteIp()  + " "+ info.getUuid()));
+            // 打包
+            String[] cmdArray = {"sh", shellFileFolder + "/package_remote.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch(),info.getRemoteIp()};
+            sb.append(ShellUtil.exec(cmdArray));
+            String module = "";
+            if (StringUtils.hasText(info.getModule())) {
+                module = info.getModule() + '/';
+            }
+            String finalName = getFinalName(info.getUuid(), module);
+            if (finalName != null) {
+                // 启动程序
+                if (StringUtils.hasText(info.getModule())) {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                } else {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                }
+            } else {
+                sb.append("打包失败");
+            }
+
+            return sb.toString();
+        } else {
+            return uuid + "对应的项目不存在！";
+        }
+    }
 }

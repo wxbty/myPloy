@@ -19,6 +19,13 @@ $(document).ready(function() {
         });
     });
 
+    // 部署远程按钮
+    $("#btn-deploy-remote").click(function () {
+        ajaxShell("../deployRemote", {uuid: uuid}, function() {
+            refreshStatus();
+        });
+    });
+
 	// 重启按钮
 	$("#btn-restart").click(function () {
 		ajaxShell("../restart", {uuid: uuid}, function() {
