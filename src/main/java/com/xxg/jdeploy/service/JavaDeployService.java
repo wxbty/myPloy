@@ -62,9 +62,12 @@ public class JavaDeployService {
             }
             String finalName = getFinalName(info.getUuid(), module);
             if (finalName != null) {
-
                 // 启动程序
-                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                if (StringUtils.hasText(info.getModule())) {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                } else {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                }
             } else {
                 sb.append("打包失败");
             }
@@ -93,7 +96,11 @@ public class JavaDeployService {
             if (finalName != null) {
 
                 // 启动程序
-                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                if (StringUtils.hasText(info.getModule())) {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                } else {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+                }
             } else {
                 sb.append("打包失败");
             }
