@@ -176,6 +176,13 @@ public class JavaDeployService {
         return fileName;
     }
 
+    private String getRemoteFinalName(String remoteIp,String uuid, String module) throws IOException {
+        String path = StringUtils.isEmpty(module) ? basePath + "/" + uuid + "/target" : basePath + "/" + uuid + "/" + module + "/target";
+
+       String fileName = ShellUtil.exec("sh " + shellFileFolder + "/showjar_remote.sh " + path+" "+remoteIp) ;
+       return fileName;
+    }
+
     public String deployRemote(String uuid) throws IOException {
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
         if (info != null) {
@@ -190,7 +197,7 @@ public class JavaDeployService {
             if (StringUtils.hasText(info.getModule())) {
                 module = info.getModule() + '/';
             }
-            String finalName = getFinalName(info.getUuid(), module);
+            String finalName = getRemoteFinalName(info.getRemote_ip(),info.getUuid(), module);
             if (finalName != null) {
                 // 启动程序
                 if (StringUtils.hasText(info.getModule())) {
@@ -220,7 +227,7 @@ public class JavaDeployService {
             if (StringUtils.hasText(info.getModule())) {
                 module = info.getModule() + '/';
             }
-            String finalName = getFinalName(info.getUuid(), module);
+            String finalName = getRemoteFinalName(info.getRemote_ip(),info.getUuid(), module);
             if (finalName != null) {
                 // 启动程序
                 if (StringUtils.hasText(info.getModule())) {

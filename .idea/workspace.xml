@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +25,21 @@
       <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+            <state relative-caret-position="128">
+              <caret line="181" column="76" selection-start-line="181" selection-start-column="76" selection-end-line="181" selection-end-column="76" />
               <folding>
                 <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaDeployController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="127" column="72" lean-forward="true" selection-start-line="127" selection-start-column="72" selection-end-line="127" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -94,7 +100,6 @@
       <list>
         <option value="$PROJECT_DIR$/doc/shell/javadeploy/kill.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/packageGit.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh" />
@@ -108,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/domain/JavaDeployInfo.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
       </list>
     </option>
@@ -571,12 +577,12 @@
       <workItem from="1530106474539" duration="883000" />
       <workItem from="1530152398485" duration="364000" />
       <workItem from="1530177718533" duration="14556000" />
-      <workItem from="1530254044887" duration="2016000" />
+      <workItem from="1530254044887" duration="3762000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64993000" />
+    <option name="totallyTimeSpent" value="66739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1440" height="797" extended-state="0" />
@@ -602,14 +608,14 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34121123" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
       <window_info id="Web" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3293944" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -844,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/domain/JavaDeployInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -920,10 +919,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="127" column="72" lean-forward="true" selection-start-line="127" selection-start-column="72" selection-end-line="127" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="212" column="8" selection-start-line="212" selection-start-column="8" selection-end-line="212" selection-end-column="8" />
+        <state relative-caret-position="128">
+          <caret line="181" column="76" selection-start-line="181" selection-start-column="76" selection-end-line="181" selection-end-column="76" />
           <folding>
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
