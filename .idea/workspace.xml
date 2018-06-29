@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" afterDir="false" />
-    </list>
+    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +23,19 @@
       <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="199" column="28" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="28" />
+            <state relative-caret-position="433">
+              <caret line="242" column="38" lean-forward="true" selection-start-line="242" selection-start-column="38" selection-end-line="242" selection-end-column="38" />
               <folding>
                 <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kill_remote.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="showlog.sh" pinned="false" current-in-tab="false">
@@ -608,15 +609,16 @@
       <workItem from="1530106474539" duration="883000" />
       <workItem from="1530152398485" duration="364000" />
       <workItem from="1530177718533" duration="14556000" />
-      <workItem from="1530254044887" duration="4169000" />
+      <workItem from="1530254044887" duration="4544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67146000" />
+    <option name="totallyTimeSpent" value="67521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -963,10 +965,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="199" column="28" selection-start-line="199" selection-start-column="19" selection-end-line="199" selection-end-column="28" />
+        <state relative-caret-position="433">
+          <caret line="242" column="38" lean-forward="true" selection-start-line="242" selection-start-column="38" selection-end-line="242" selection-end-column="38" />
           <folding>
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
