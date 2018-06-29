@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="225" column="76" selection-start-line="225" selection-start-column="65" selection-end-line="225" selection-end-column="76" />
+            <state relative-caret-position="-34">
+              <caret line="183" column="23" lean-forward="true" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
               <folding>
                 <element signature="e#643#667#1" expanded="true" />
                 <element signature="e#842#843#0" expanded="true" />
@@ -43,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showjar_remote.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="showjar_remote.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -112,11 +112,11 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar.sh" />
-        <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
       </list>
     </option>
   </component>
@@ -552,16 +552,15 @@
       <workItem from="1530106474539" duration="883000" />
       <workItem from="1530152398485" duration="364000" />
       <workItem from="1530177718533" duration="14556000" />
-      <workItem from="1530254044887" duration="8678000" />
+      <workItem from="1530254044887" duration="9007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71655000" />
+    <option name="totallyTimeSpent" value="71984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.3293944" />
@@ -584,8 +583,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -909,18 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="225" column="76" selection-start-line="225" selection-start-column="65" selection-end-line="225" selection-end-column="76" />
-          <folding>
-            <element signature="e#643#667#1" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -930,8 +917,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="183" column="23" lean-forward="true" selection-start-line="183" selection-start-column="23" selection-end-line="183" selection-end-column="23" />
+          <folding>
+            <element signature="e#643#667#1" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#897#898#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
