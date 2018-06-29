@@ -182,9 +182,9 @@ public class JavaDeployService {
             StringBuilder sb = new StringBuilder();
 
             // kill进程
-            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemoteIp()  + " "+ info.getUuid()));
+            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemote_ip()  + " "+ info.getUuid()));
             // 打包
-            String[] cmdArray = {"sh", shellFileFolder + "/package_remote.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch(),info.getRemoteIp()};
+            String[] cmdArray = {"sh", shellFileFolder + "/package_remote.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch(),info.getRemote_ip()};
             sb.append(ShellUtil.exec(cmdArray));
             String module = "";
             if (StringUtils.hasText(info.getModule())) {
@@ -203,6 +203,43 @@ public class JavaDeployService {
             }
 
             return sb.toString();
+        } else {
+            return uuid + "对应的项目不存在！";
+        }
+    }
+
+    public String restartRemote(String uuid) throws IOException {
+
+        JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
+        if (info != null) {
+            StringBuilder sb = new StringBuilder();
+            // kill进程
+            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getUuid()));
+            String module = "";
+            if (StringUtils.hasText(info.getModule())) {
+                module = info.getModule() + '/';
+            }
+            String finalName = getFinalName(info.getUuid(), module);
+            if (finalName != null) {
+                // 启动程序
+                if (StringUtils.hasText(info.getModule())) {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module+" "+info.getRemote_ip()));
+                } else {
+                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module+" "+info.getRemote_ip()));
+                }
+            } else {
+                sb.append("找不到程序包，请重新部署");
+            }
+            return sb.toString();
+        } else {
+            return uuid + "对应的项目不存在！";
+        }
+    }
+
+    public String stopRemote(String uuid) throws IOException {
+        JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
+        if (info != null) {
+            return ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemote_ip()  + " "+ info.getUuid());
         } else {
             return uuid + "对应的项目不存在！";
         }

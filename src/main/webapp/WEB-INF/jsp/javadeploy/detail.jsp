@@ -95,7 +95,7 @@
 							<p>GIT地址：${detail.url}</p>
 							<p>GIT分支：${detail.branch}</p>
 						</c:if>
-						<p>远程IP：${detail.remoteIp}</p>
+						<p>远程IP：${detail.remote_ip}</p>
 					</div>
 					<div class="card-action">
 						<p>
@@ -104,6 +104,8 @@
 							<a class="btn waves-light waves-effect white-text" id="btn-restart">重启</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-stop">停止</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-deploy-remote">部署远程</a>
+							<a class="btn waves-light waves-effect white-text" id="btn-restart-remote">重启</a>
+							<a class="btn waves-light waves-effect white-text" id="btn-stop-remote">停止</a>
 						</p>
 					</div>
 				</div>

@@ -12,15 +12,18 @@ public class JavaDeployInfo {
     private String profile;
     private String module;
     private String branch;
-    private  String remoteIp;
 
-    public String getRemoteIp() {
-        return remoteIp;
+    public String getRemote_ip() {
+        return remote_ip;
     }
 
-    public void setRemoteIp(String remoteIp) {
-        this.remoteIp = remoteIp;
+    public void setRemote_ip(String remote_ip) {
+        this.remote_ip = remote_ip;
     }
+
+    private String remote_ip;
+
+
 
     public String getBranch() {
         return branch;
