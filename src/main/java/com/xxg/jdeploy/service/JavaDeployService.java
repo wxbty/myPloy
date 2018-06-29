@@ -222,6 +222,7 @@ public class JavaDeployService {
         if (info != null) {
             StringBuilder sb = new StringBuilder();
             // kill进程
+            System.out.println("restartRemote="+info.getRemote_ip()+",uuid="+info.getUuid());
             sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " +info.getRemote_ip()+ " "+ info.getUuid()));
             String module = "";
             if (StringUtils.hasText(info.getModule())) {
@@ -246,6 +247,7 @@ public class JavaDeployService {
 
     public String stopRemote(String uuid) throws IOException {
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
+        System.out.println("restartRemote="+info.getRemote_ip()+",uuid="+info.getUuid());
         if (info != null) {
             return ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemote_ip()  + " "+ info.getUuid());
         } else {
