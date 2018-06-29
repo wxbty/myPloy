@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +38,8 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="90">
+              <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -149,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/packageGit.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/mapper/JavaDeployMapper.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/package_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_remote.sh" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
       </list>
     </option>
   </component>
@@ -629,16 +629,15 @@
       <workItem from="1530106474539" duration="883000" />
       <workItem from="1530152398485" duration="364000" />
       <workItem from="1530177718533" duration="14556000" />
-      <workItem from="1530254044887" duration="7849000" />
+      <workItem from="1530254044887" duration="8138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70826000" />
+    <option name="totallyTimeSpent" value="71115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.3293944" />
@@ -661,8 +660,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30615166" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1005,8 +1004,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="90">
+          <caret line="6" column="81" lean-forward="true" selection-start-line="6" selection-start-column="81" selection-end-line="6" selection-end-column="81" />
         </state>
       </provider>
     </entry>
