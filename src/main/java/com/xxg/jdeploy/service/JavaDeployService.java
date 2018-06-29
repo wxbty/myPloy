@@ -222,7 +222,7 @@ public class JavaDeployService {
         if (info != null) {
             StringBuilder sb = new StringBuilder();
             // kill进程
-            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getUuid()));
+            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " +info.getRemote_ip()+ " "+ info.getUuid()));
             String module = "";
             if (StringUtils.hasText(info.getModule())) {
                 module = info.getModule() + '/';
