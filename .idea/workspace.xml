@@ -6,10 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" afterDir="false" />
-    </list>
+    <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="248" column="22" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="22" />
+            <state relative-caret-position="175">
+              <caret line="249" column="89" selection-start-line="249" selection-start-column="89" selection-end-line="249" selection-end-column="89" />
               <folding>
                 <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#897#898#0" expanded="true" />
@@ -39,8 +36,8 @@
       <file leaf-file-name="kill_remote.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="135">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -626,12 +623,12 @@
       <workItem from="1530106474539" duration="883000" />
       <workItem from="1530152398485" duration="364000" />
       <workItem from="1530177718533" duration="14556000" />
-      <workItem from="1530254044887" duration="5205000" />
+      <workItem from="1530254044887" duration="5970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68182000" />
+    <option name="totallyTimeSpent" value="68947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="44" width="1440" height="797" extended-state="0" />
@@ -991,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="248" column="22" selection-start-line="248" selection-start-column="8" selection-end-line="248" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="249" column="89" selection-start-line="249" selection-start-column="89" selection-end-line="249" selection-end-column="89" />
           <folding>
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#897#898#0" expanded="true" />
@@ -1002,8 +999,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
