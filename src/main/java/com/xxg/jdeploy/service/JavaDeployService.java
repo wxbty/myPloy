@@ -178,8 +178,9 @@ public class JavaDeployService {
 
     private String getRemoteFinalName(String remoteIp,String uuid, String module) throws IOException {
         String path = StringUtils.isEmpty(module) ? basePath + "/" + uuid + "/target" : basePath + "/" + uuid + "/" + module + "/target";
-
+        System.out.println("begin getRemoteFinalName path="+path+",remoteIp="+remoteIp);
        String fileName = ShellUtil.exec("sh " + shellFileFolder + "/showjar_remote.sh " + path+" "+remoteIp) ;
+        System.out.println("end getRemoteFinalName ");
        return fileName;
     }
 
