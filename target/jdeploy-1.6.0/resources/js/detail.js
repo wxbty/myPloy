@@ -40,6 +40,20 @@ $(document).ready(function() {
 		});
 	});
 
+    // 重启按钮
+    $("#btn-restart-remote").click(function () {
+        ajaxShell("../restartRemote", {uuid: uuid}, function() {
+            refreshStatus();
+        });
+    });
+
+    // 停止按钮
+    $("#btn-stop-remote").click(function () {
+        ajaxShell("../stopRemote", {uuid: uuid}, function() {
+            refreshStatus();
+        });
+    });
+
 	// 查看日志
 	$(".btn-showlog").click(function () {
 
