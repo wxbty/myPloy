@@ -210,6 +210,7 @@ public class JavaDeployService {
 
     public String restartRemote(String uuid) throws IOException {
 
+
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
         if (info != null) {
             StringBuilder sb = new StringBuilder();

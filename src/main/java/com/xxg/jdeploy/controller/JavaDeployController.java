@@ -100,4 +100,31 @@ public class JavaDeployController {
 		return HtmlUtils.htmlEscape(javaDeployService.stop(uuid));
 	}
 
+
+	/**
+	 * ajax重启
+	 */
+	@ResponseBody
+	@RequestMapping(value = "restartRemote", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
+	public String ajaxRestartRemote(String uuid) throws IOException {
+		return HtmlUtils.htmlEscape(javaDeployService.restartRemote(uuid));
+	}
+
+	/**
+	 * ajax部署
+	 */
+	@ResponseBody
+	@RequestMapping(value = "deployRemote", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
+	public String ajaxDeployRemote(String uuid) throws IOException {
+		return HtmlUtils.htmlEscape(javaDeployService.deployRemote(uuid));
+	}
+
+	/**
+	 * ajax停止
+	 */
+	@ResponseBody
+	@RequestMapping(value = "stopRemote", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
+	public String ajaxStopRemote(String uuid) throws IOException {
+		return HtmlUtils.htmlEscape(javaDeployService.stopRemote(uuid));
+	}
 }
