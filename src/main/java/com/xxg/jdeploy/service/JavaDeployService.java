@@ -58,7 +58,7 @@ public class JavaDeployService {
             if (StringUtils.isEmpty(info.getRemote_ip())) {
                 deployPlusLocal(info, sb, "/package.sh");
             } else {
-                deployPlusRemote(info, sb, "/packageGit_remote.sh");
+                deployPlusRemote(info, sb, "/package_remote.sh");
             }
 
             return sb.toString();
@@ -93,8 +93,11 @@ public class JavaDeployService {
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
         if (info != null) {
             StringBuilder sb = new StringBuilder();
-            deployPlusLocal(info, sb, "/packageGit.sh");
-
+            if (StringUtils.isEmpty(info.getRemote_ip())) {
+                deployPlusLocal(info, sb, "/packageGit.sh");
+            } else {
+                deployPlusRemote(info, sb, "/packageGit_remote.sh");
+            }
 
             return sb.toString();
         } else {

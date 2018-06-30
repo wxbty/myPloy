@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     // 增量部署按钮
     $("#btn-deploy-plus-remote").click(function () {
-        ajaxShell("../deployPlusRemote", {uuid: uuid}, function() {
+        ajaxShell("../deployPlus", {uuid: uuid}, function() {
             refreshStatus();
         });
     });
