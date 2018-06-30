@@ -19,20 +19,6 @@ $(document).ready(function() {
         });
     });
 
-    // 增量部署按钮
-    $("#btn-deploy-plus-remote").click(function () {
-        ajaxShell("../deployPlus", {uuid: uuid}, function() {
-            refreshStatus();
-        });
-    });
-
-    // 部署远程按钮
-    $("#btn-deploy-remote").click(function () {
-        ajaxShell("../deployRemote", {uuid: uuid}, function() {
-            refreshStatus();
-        });
-    });
-
 	// 重启按钮
 	$("#btn-restart").click(function () {
 		ajaxShell("../restart", {uuid: uuid}, function() {
@@ -46,20 +32,6 @@ $(document).ready(function() {
 			refreshStatus();
 		});
 	});
-
-    // 重启按钮
-    $("#btn-restart-remote").click(function () {
-        ajaxShell("../restartRemote", {uuid: uuid}, function() {
-            refreshStatus();
-        });
-    });
-
-    // 停止按钮
-    $("#btn-stop-remote").click(function () {
-        ajaxShell("../stopRemote", {uuid: uuid}, function() {
-            refreshStatus();
-        });
-    });
 
 	// 查看日志
 	$(".btn-showlog").click(function () {
