@@ -5,6 +5,13 @@
 # $1 remote_ip
 # $2 UUID
 
-echo "kill_remote,remote_ip=$1,uuid=$2";
-ssh root@$1 "ps -aux|grep $2|grep -v grep|cut -c 9-15|xargs kill -9"
-echo "服务已停止"
+ssh root@$1 "
+var pid = ps -aux|grep $2|grep -v grep|cut -c 9-15;
+if [ -z pid ]
+then
+	echo 进程已死直接重启
+else
+    ps -aux|grep $2|grep -v grep|cut -c 9-15|xargs kill -9
+fi
+"
+echo "服务已停止"ps -aux|grep $2|grep -v grep|cut -c 9-15|xargs kill -9
