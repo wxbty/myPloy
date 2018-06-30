@@ -99,13 +99,18 @@
 					</div>
 					<div class="card-action">
 						<p>
+							<c:if test="${empty detail.remote_ip}">
 							<a class="btn waves-light waves-effect white-text" id="btn-deploy">部署</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-deploy-plus">增量部署</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-restart">重启</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-stop">停止</a>
+							</c:if>
+							<c:if test="${not empty detail.remote_ip}">
 							<a class="btn waves-light waves-effect white-text" id="btn-deploy-remote">部署远程</a>
+							<a class="btn waves-light waves-effect white-text" id="btn-deploy-plus-remote">增量部署</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-restart-remote">重启</a>
 							<a class="btn waves-light waves-effect white-text" id="btn-stop-remote">停止</a>
+							</c:if>
 						</p>
 					</div>
 				</div>
