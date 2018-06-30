@@ -14,7 +14,7 @@ public interface JavaDeployMapper {
 	@Select("select uuid,name,url,type,profile,module,branch,remote_ip from java_deploy where uuid=#{uuid}")
 	JavaDeployInfo getDetail(String uuid);
 
-	@Insert("insert into java_deploy (uuid,name,url,type,profile,module,branch) values (#{uuid},#{name},#{url},#{type},#{profile},#{module},#{branch})")
+	@Insert("insert into java_deploy (uuid,name,url,type,profile,module,branch,remote_ip) values (#{uuid},#{name},#{url},#{type},#{profile},#{module},#{branch},#{remote_ip})")
 	void insert(JavaDeployInfo javaDeployInfo);
 
 }

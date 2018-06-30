@@ -21,7 +21,7 @@ public class JavaDeployInfo {
         this.remote_ip = remote_ip;
     }
 
-    private String remote_ip;
+    private String remote_ip="";
 
 
 

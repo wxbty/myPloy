@@ -58,6 +58,10 @@
 										<input type="text" id="input-branch" name="branch">
 										<label for="input-branch">Git分支</label>
 									</div>
+									<div class="input-field col s6">
+										<input type="text" id="input-remote_ip" name="remote_ip">
+										<label for="input-remote_ip">远程地址</label>
+									</div>
 								</div>
 
 						</div>

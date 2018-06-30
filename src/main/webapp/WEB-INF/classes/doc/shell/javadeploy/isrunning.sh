@@ -4,5 +4,7 @@
 #
 # 参数：
 # $1 UUID
+# $1 远程ip
 
-ps -ef | grep $1
+ssh root@$2
+"ps -ef | grep $1"
