@@ -151,11 +151,16 @@ public class JavaDeployService {
     public String showLog(String uuid) throws IOException {
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
         if (info != null) {
+            if(StringUtils.isEmpty(info.getRemote_ip()))
             return "sh " + shellFileFolder + "/showlog.sh " + info.getUuid() + " " + basePath;
+            else
+                return "sh " + shellFileFolder + "/showlog_remote.sh " + info.getUuid() + " " + basePath+ " " +info.getRemote_ip();
         } else {
             return "echo \"对应的项目不存在！\"";
         }
     }
+
+
 
     private String getFinalName(String uuid, String module) {
         String path = StringUtils.isEmpty(module) ? basePath + "/" + uuid + "/target" : basePath + "/" + uuid + "/" + module + "/target";
