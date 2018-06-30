@@ -43,7 +43,7 @@ public class JavaDeployService {
             if (StringUtils.isEmpty(info.getRemote_ip()))
                 out = ShellUtil.exec("sh " + shellFileFolder + "/isrunning.sh " + info.getUuid());
             else
-                out = ShellUtil.exec("sh " + shellFileFolder + "/isrunning_remote.sh " + info.getUuid()+" "+info.getRemote_ip());
+                out = ShellUtil.exec("sh " + shellFileFolder + "/isrunning_remote.sh " + info.getUuid() + " " + info.getRemote_ip());
             return String.valueOf(StringUtils.hasText(out) && out.contains("java -jar"));
         } else {
             return "false";
@@ -55,25 +55,10 @@ public class JavaDeployService {
         if (info != null) {
             StringBuilder sb = new StringBuilder();
 
-            // kill进程
-            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill.sh " + info.getUuid()));
-            // 打包
-            String[] cmdArray = {"sh", shellFileFolder + "/package.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch()};
-            sb.append(ShellUtil.exec(cmdArray));
-            String module = "";
-            if (StringUtils.hasText(info.getModule())) {
-                module = info.getModule() + '/';
-            }
-            String finalName = getFinalName(info.getUuid(), module);
-            if (finalName != null) {
-                // 启动程序
-                if (StringUtils.hasText(info.getModule())) {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                } else {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                }
+            if (StringUtils.isEmpty(info.getRemote_ip())) {
+                deployPlusLocal(info, sb, "/package.sh");
             } else {
-                sb.append("打包失败");
+                deployPlusRemote(info, sb, "/packageGit_remote.sh");
             }
 
             return sb.toString();
@@ -82,36 +67,61 @@ public class JavaDeployService {
         }
     }
 
+    private void deployPlusRemote(JavaDeployInfo info, StringBuilder sb, String s) throws IOException {
+        sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemote_ip() + " " + info.getUuid()));
+        // 打包
+        String[] cmdArray = {"sh", shellFileFolder + s, info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch(), info.getRemote_ip()};
+        sb.append(ShellUtil.exec(cmdArray));
+        String module = "";
+        if (StringUtils.hasText(info.getModule())) {
+            module = info.getModule() + '/';
+        }
+        String finalName = getRemoteFinalName(info.getRemote_ip(), info.getUuid(), module);
+        if (finalName != null) {
+            // 启动程序
+            if (StringUtils.hasText(info.getModule())) {
+                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+            } else {
+                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+            }
+        } else {
+            sb.append("打包失败");
+        }
+    }
+
     public String deployPlus(String uuid) throws IOException {
         JavaDeployInfo info = javaDeployMapper.getDetail(uuid);
         if (info != null) {
             StringBuilder sb = new StringBuilder();
+            deployPlusLocal(info, sb, "/packageGit.sh");
 
-            // kill进程
-            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill.sh " + info.getUuid()));
-            // 打包
-            String[] cmdArray = {"sh", shellFileFolder + "/packageGit.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch()};
-            sb.append(ShellUtil.exec(cmdArray));
-            String module = "";
-            if (StringUtils.hasText(info.getModule())) {
-                module = info.getModule() + '/';
-            }
-            String finalName = getFinalName(info.getUuid(), module);
-            if (finalName != null) {
-
-                // 启动程序
-                if (StringUtils.hasText(info.getModule())) {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                } else {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                }
-            } else {
-                sb.append("打包失败");
-            }
 
             return sb.toString();
         } else {
             return uuid + "对应的项目不存在！";
+        }
+    }
+
+    private void deployPlusLocal(JavaDeployInfo info, StringBuilder sb, String s) throws IOException {
+        sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill.sh " + info.getUuid()));
+        // 打包
+        String[] cmdArray = {"sh", shellFileFolder + s, info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch()};
+        sb.append(ShellUtil.exec(cmdArray));
+        String module = "";
+        if (StringUtils.hasText(info.getModule())) {
+            module = info.getModule() + '/';
+        }
+        String finalName = getFinalName(info.getUuid(), module);
+        if (finalName != null) {
+
+            // 启动程序
+            if (StringUtils.hasText(info.getModule())) {
+                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+            } else {
+                sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
+            }
+        } else {
+            sb.append("打包失败");
         }
     }
 
@@ -198,25 +208,7 @@ public class JavaDeployService {
             StringBuilder sb = new StringBuilder();
 
             // kill进程
-            sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill_remote.sh " + info.getRemote_ip() + " " + info.getUuid()));
-            // 打包
-            String[] cmdArray = {"sh", shellFileFolder + "/package_remote.sh", info.getUuid(), info.getUrl(), basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch(), info.getRemote_ip()};
-            sb.append(ShellUtil.exec(cmdArray));
-            String module = "";
-            if (StringUtils.hasText(info.getModule())) {
-                module = info.getModule() + '/';
-            }
-            String finalName = getRemoteFinalName(info.getRemote_ip(), info.getUuid(), module);
-            if (finalName != null) {
-                // 启动程序
-                if (StringUtils.hasText(info.getModule())) {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_module_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                } else {
-                    sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start_remote.sh " + info.getUuid() + " " + finalName + " " + basePath + " " + module));
-                }
-            } else {
-                sb.append("打包失败");
-            }
+            deployPlusRemote(info, sb, "/package_remote.sh");
 
             return sb.toString();
         } else {
