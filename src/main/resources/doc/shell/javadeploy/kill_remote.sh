@@ -6,7 +6,7 @@
 # $2 UUID
 
 ssh root@$1 "
-pid = ps -aux|grep $2|grep -v grep|cut -c 9-15;
+pid=$( ps -aux|grep $2|grep -v grep|cut -c 9-15 )
 if [ -z $pid ]
 then
 	echo 进程已死直接重启
