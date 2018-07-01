@@ -50,6 +50,7 @@ public class JavaDeployController {
 	 */
 	@RequestMapping(value = "detail/{uuid}", method = RequestMethod.GET)
 	public ModelAndView detail(@PathVariable String uuid) {
+		System.out.println(11111);
 		ModelAndView mv = new ModelAndView("javadeploy/detail");
 		mv.addObject("detail", javaDeployService.getDetail(uuid));
 		return mv;
