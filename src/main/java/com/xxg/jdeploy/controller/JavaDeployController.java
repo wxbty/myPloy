@@ -35,6 +35,17 @@ public class JavaDeployController {
 	}
 
 	/**
+	 * 添加项目页面
+	 */
+	@RequestMapping(value = "test", method = RequestMethod.GET)
+	public ModelAndView test() {
+		ModelAndView mv = new ModelAndView("javadeploy/test");
+		String datas = "[\"name\",\"remark\",\"picture\",\"isDiy\",\"cookingTime\",\"cookingMiniTime\",\"cookingMAXTime\",\"workMode\",\"tagName\"]";
+		mv.addObject("datas",datas);
+		return mv;
+	}
+
+	/**
 	 * 添加项目请求
 	 */
 	@RequestMapping(value = "insert", method = RequestMethod.POST)
@@ -50,7 +61,6 @@ public class JavaDeployController {
 	 */
 	@RequestMapping(value = "detail/{uuid}", method = RequestMethod.GET)
 	public ModelAndView detail(@PathVariable String uuid) {
-		System.out.println(11111);
 		ModelAndView mv = new ModelAndView("javadeploy/detail");
 		mv.addObject("detail", javaDeployService.getDetail(uuid));
 		return mv;

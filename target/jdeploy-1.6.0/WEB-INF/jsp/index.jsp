@@ -22,6 +22,8 @@
 		</div>
 	</nav>
 
+	<div><a href="${pageContext.request.contextPath}/javadeploy/test">测试jps</a></div>
+
 	<div class="container" style="padding-top: 20px; width: 90%;flex: 1 0 auto;">
 		<div class="row">
 			<div class="col s12">
@@ -57,7 +59,7 @@
 							</nav>
 						</div>
 						<div class="input-field col s12 m4">
-							<a class="waves-effect waves-light btn red lighten-2" href="${pageContext.request.contextPath}/javadeploy/new" style="line-height: 64px; height: 64px;">创建</a>
+							<a class="waves-effect waves-light btn red lighten-2" href="${pageContext.request.contextPath}/javadeploy/test" style="line-height: 64px; height: 64px;">创建</a>
 						</div>
 					</div>
 					<table class="hoverable">

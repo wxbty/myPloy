@@ -27,7 +27,8 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.2.3" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:1.2.1" />
-          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.34" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:2.6.0" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.0.14" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-exec:1.3" />

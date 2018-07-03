@@ -2,25 +2,48 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JDeploy:war" />
+      <artifact name="JDeploy:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/test.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JDeploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JDeploy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JDeploy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JDeploy_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/domain/JavaDeployInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/domain/JavaDeployInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaDeployMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaDeployMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/service/JavaDeployService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showjar_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showjar_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/web.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xxg/jdeploy/controller/JavaDeployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_remote.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/isrunning.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/kill.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/package.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/showlog.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/domain/JavaDeployInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/domain/JavaDeployInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaDeployMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaDeployMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/service/JavaDeployService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/service/JavaDeployService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" afterDir="false" />
@@ -43,6 +66,11 @@
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/package.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/showlog.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/localEngine/localhost/jdeploy/SESSIONS.ser" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,35 +88,26 @@
       <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+            <state relative-caret-position="-634">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="start_module.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="144" column="58" selection-start-line="144" selection-start-column="58" selection-end-line="144" selection-end-column="58" />
+            <state relative-caret-position="165">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_module_remote.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module_remote.sh">
+      <file leaf-file-name="JavaDeployController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kill_remote.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -97,52 +116,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/package.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="packageGit.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/packageGit.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package_remote.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/package_remote.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="new.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/new.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
+            <state relative-caret-position="363">
               <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="showlog_remote.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showlog_remote.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -160,9 +143,12 @@
       <find>data-wsurl</find>
       <find>LogWebSocketHandle</find>
       <find>javadeploy.basepath</find>
-      <find>select rollback_info from txc_undo_log</find>
+      <find />
       <find>start_modu</find>
       <find>btn-deploy</find>
+      <find>showlogin</find>
+      <find>addAdminUser</find>
+      <find>detail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_module_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail_remote.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" />
@@ -197,9 +182,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar.sh" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/test.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
       </list>
     </option>
   </component>
@@ -219,8 +208,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="10" />
+    <option name="y" value="33" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -329,6 +319,75 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+              <item name="shell" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="javadeploy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="javawebdeploy" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -349,9 +408,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy" />
       <recent name="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -483,14 +543,15 @@
       <method>
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="JDeploy:war" />
+          <artifact name="JDeploy:war exploded" />
         </option>
       </method>
     </configuration>
     <configuration name="jdpoly" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="JDeploy:war">
+        <artifact name="JDeploy:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -593,14 +654,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86141000" />
+    <option name="totallyTimeSpent" value="98560000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <frame x="10" y="33" width="1440" height="797" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.3293944" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3293944" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -611,25 +672,51 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" weight="0.3293944" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293944" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3190272" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34121123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3190272" />
       <window_info id="Web" order="2" sideWeight="0.50224215" side_tool="true" weight="0.30615166" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" visible="true" weight="0.3293944" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007153" side_tool="true" weight="0.3293944" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3190272" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49928468" visible="true" weight="0.3293944" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info id="Web" order="2" sideWeight="0.50224215" side_tool="true" weight="0.30615166" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -642,52 +729,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/shell/javawebdeploy/package.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/sql.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/shell/javadeploy/kill.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaWebDeployService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaWebDeployController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -714,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/sql.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="18" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -780,24 +825,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_remote.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -812,13 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="22" selection-start-column="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="121" column="100" selection-start-line="121" selection-start-column="94" selection-end-line="121" selection-end-column="100" />
         </state>
       </provider>
     </entry>
@@ -892,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="72" column="58" selection-start-line="72" selection-start-column="58" selection-end-line="72" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showlog.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -906,24 +923,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/new.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/detail.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1182">
           <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -938,13 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -983,17 +979,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="124" column="5" selection-start-line="124" selection-start-column="5" selection-end-line="124" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="144" column="58" selection-start-line="144" selection-start-column="58" selection-end-line="144" selection-end-column="58" />
+        <state relative-caret-position="226">
+          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2085">
+          <caret line="139" column="13" selection-start-line="139" selection-start-column="13" selection-end-line="139" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/test.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="109" column="14" lean-forward="true" selection-start-line="109" selection-start-column="14" selection-end-line="109" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="64" column="45" lean-forward="true" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaWebDeployController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="10" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#span#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/new.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
         </state>
       </provider>
     </entry>
