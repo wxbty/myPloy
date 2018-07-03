@@ -7,71 +7,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42095e57-9c33-4b50-861c-cbb55e5321e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/test.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JDeploy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JDeploy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JDeploy_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JDeploy_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_34.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/web.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xxg/jdeploy/controller/JavaDeployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/controller/JavaWebDeployController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/domain/JavaDeployInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/domain/JavaWebDeployInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaDeployMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/mapper/JavaWebDeployMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/service/JavaWebDeployService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/util/QueryStringParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/util/ShellUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/websocket/LogThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/xxg/jdeploy/websocket/LogWebSocketHandle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/package.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/packageGit.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/packageGit_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/package_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showjar.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showjar_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showlog.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/showlog_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_module.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_module_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javadeploy/start_remote.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javawebdeploy/isrunning.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javawebdeploy/kill.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javawebdeploy/package.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javawebdeploy/showlog.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/shell/javawebdeploy/start.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/doc/sql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/springSecurity.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/springmvc-servlet.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/isrunning_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/kill_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/packageGit_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/package_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showjar_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/showlog_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_module_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javadeploy/start_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/isrunning.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/kill.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/showlog.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/doc/shell/javawebdeploy/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/com/xxg/jdeploy/controller/JavaDeployController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/META-INF/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/isrunning_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/kill.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/kill_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/packageGit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/packageGit.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/packageGit_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/packageGit_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/package_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/package_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showjar.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showjar.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showjar_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showjar_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showlog.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showlog_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/showlog_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_module.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_module.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_module_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_module_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_remote.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javadeploy/start_remote.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/isrunning.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/isrunning.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/kill.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/kill.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/package.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/package.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/showlog.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/showlog.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/classes/doc/shell/javawebdeploy/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jdeploy-1.6.0/WEB-INF/lib/mysql-connector-java-5.1.34.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/work/localEngine/localhost/jdeploy/SESSIONS.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,56 +70,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JavaDeployService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-634">
-              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start_module.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaDeployController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="82" column="62" lean-forward="true" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kill_remote.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kill.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/new.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
+            <state relative-caret-position="465">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -160,6 +99,9 @@
       <find>addAdminUser</find>
       <find>detail</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -193,12 +135,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/detail.js" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/showjar.sh" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaDeployService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javadeploy/test.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -321,40 +263,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jdeploy" type="462c0819:PsiDirectoryNode" />
               <item name="websocket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JDeploy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-              <item name="javadeploy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JDeploy" type="b2602c69:ProjectViewProjectNode" />
@@ -637,7 +545,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98879000" />
+    <option name="totallyTimeSpent" value="100718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="33" width="1440" height="797" extended-state="0" />
@@ -663,9 +571,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3293944" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3190272" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49775785" visible="true" weight="0.3190272" />
       <window_info id="Web" order="2" sideWeight="0.50224215" side_tool="true" weight="0.30615166" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -695,7 +604,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34121123" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -712,13 +620,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/service/JavaWebDeployService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javawebdeploy/kill.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -955,20 +856,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/javawebdeploy/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1037,14 +924,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/start_module.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1055,17 +935,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xxg/jdeploy/controller/JavaDeployController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
-          <caret line="82" column="62" lean-forward="true" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+          <caret line="82" column="62" selection-start-line="82" selection-start-column="62" selection-end-line="82" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/doc/shell/javadeploy/kill_remote.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
