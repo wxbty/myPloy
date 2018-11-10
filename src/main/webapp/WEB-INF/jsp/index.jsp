@@ -59,7 +59,7 @@
 							</nav>
 						</div>
 						<div class="input-field col s12 m4">
-							<a class="waves-effect waves-light btn red lighten-2" href="${pageContext.request.contextPath}/javadeploy/test" style="line-height: 64px; height: 64px;">创建</a>
+							<a class="waves-effect waves-light btn red lighten-2" href="${pageContext.request.contextPath}/javadeploy/new" style="line-height: 64px; height: 64px;">创建</a>
 						</div>
 					</div>
 					<table class="hoverable">
