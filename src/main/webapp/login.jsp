@@ -61,3 +61,10 @@
 
 </body>
 </html>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.location.href = "http://www.baidu.com";
+    });
+</script>
