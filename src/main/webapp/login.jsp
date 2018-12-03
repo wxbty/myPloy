@@ -65,6 +65,6 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        window.location.href = "http://www.baidu.com";
+        window.location.href = "https://github.com/wxbty/meepo/";
     });
 </script>
