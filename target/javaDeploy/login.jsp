@@ -61,3 +61,10 @@
 
 </body>
 </html>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        window.location.href = "https://github.com/wxbty/meepo/";
+    });
+</script>

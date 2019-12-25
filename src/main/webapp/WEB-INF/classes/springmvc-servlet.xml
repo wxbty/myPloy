@@ -31,14 +31,5 @@
     <!-- 静态资源可直接访问 -->
     <mvc:default-servlet-handler />
 
-    <!-- WebSocket -->
-    <websocket:handlers>
-        <websocket:mapping path="/log" handler="logWebSocketHandle" />
-    </websocket:handlers>
-    <bean id="logWebSocketHandle" class="com.xxg.jdeploy.websocket.LogWebSocketHandle" />
-    <bean class="org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor">
-        <property name="corePoolSize" value="0" />
-        <property name="queueCapacity" value="0" />
-    </bean>
 
 </beans>
