@@ -51,40 +51,34 @@ public class JavaWebDeployService {
 		}
 	}
 
-	public String deploy(String uuid) throws IOException {
-		JavaWebDeployInfo info = javaWebDeployMapper.getDetail(uuid);
-		if(info != null) {
+	public String deploy(String name, String giturl, String branch,int port) throws IOException {
 			StringBuilder sb = new StringBuilder();
 
 			// kill进程
-			sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill.sh " + info.getUuid()));
+			sb.append(ShellUtil.exec("sh " + shellFileFolder + "/kill.sh " + name));
 			// 打包
-			String contextPath = info.getContextPath();
+			String contextPath = "/";
 			contextPath = contextPath.replace("/", "");
 			if(contextPath.length() == 0) {
 				contextPath = "root";
 			}
 			
-			String[] cmdArray = {"sh", shellFileFolder + "/package.sh", info.getUuid(), info.getUrl(), jettyPath, basePath, String.valueOf(info.getType()), info.getProfile(), info.getBranch()};
+			String[] cmdArray = {"sh", shellFileFolder + "/package.sh", name, giturl, jettyPath, basePath, "git", "null", branch};
 			sb.append(ShellUtil.exec(cmdArray));
 
 			String module = "";
-			if(StringUtils.hasText(info.getModule())) {
-				module = "/" + info.getModule();
-			}
 
-			String finalName = getFinalName(module, info.getUuid());
+
+			String finalName = getFinalName(module, name);
 			if(finalName != null) {
-				FileUtils.copyFile(new File(basePath + "/" + info.getUuid() + module + "/target/" + finalName), new File(basePath + "/" + info.getUuid() + "/webapps/" + contextPath + ".war"));
+				FileUtils.copyFile(new File(basePath + "/" + name + module + "/target/" + finalName), new File(basePath + "/" + name + "/webapps/" + contextPath + ".war"));
 				// 启动程序
-				sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + info.getUuid() + " " + info.getPort() + " " + jettyPath + " " + basePath));
+				sb.append(ShellUtil.exec("sh " + shellFileFolder + "/start.sh " + name + " " + port + " " + jettyPath + " " + basePath));
 			} else {
 				sb.append("打包失败");
 			}
 			return sb.toString();
-		} else {
-			return uuid + "对应的项目不存在！";
-		}
+
 	}
 
 	public String restart(String uuid) throws IOException {

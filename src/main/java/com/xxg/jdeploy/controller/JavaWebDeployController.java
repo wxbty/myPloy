@@ -69,8 +69,8 @@ public class JavaWebDeployController {
 	 */
 	@ResponseBody
 	@RequestMapping(value = "deploy", produces = "text/plain;charset=UTF-8", method = RequestMethod.POST)
-	public String ajaxDeploy(String uuid) throws IOException {
-		return HtmlUtils.htmlEscape(javaWebDeployService.deploy(uuid));
+	public String ajaxDeploy(String name, String giturl,String branch,int port) throws IOException {
+		return HtmlUtils.htmlEscape(javaWebDeployService.deploy(name,giturl,branch,port));
 	}
 	
 	/**
